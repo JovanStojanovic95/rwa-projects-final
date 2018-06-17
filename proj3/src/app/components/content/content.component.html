@@ -1,0 +1,10 @@
+<div class="serach-div">
+  <input #name class="input"/>
+  <button class="button" (click)='setResultName(name.value)'>Search by name</button>
+  <br/>
+  <input #genre class="input"/>
+  <button class="button" (click)='setResultGenre(genre.value)'>Search by genre</button>
+  <br/>
+  <button class="button" (click)='setResultAll()'>Show all</button>
+  <app-view [movies] = "movies2"></app-view>
+</div>

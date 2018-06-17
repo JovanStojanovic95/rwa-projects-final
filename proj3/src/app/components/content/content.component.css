@@ -1,0 +1,15 @@
+.serach-div {
+    font-family: Calibri;
+    text-align: center;
+  }
+  input {
+    background-color: rgb(50,50,50);
+    color: white; 
+    border-style: none;
+  }
+  
+  button {
+    background-color: goldenrod;
+    color: white;
+    border-style: none;
+  }
